@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Your Name | Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
 <body>
 
     <header>
-            <img src="images/logo.png.jpg" alt="Your Logo" class="logo">
-            <h1>Welcome to My Portfolio</h1>
-          
+        <img src="images/logo.png.jpg" alt="Your Logo" class="logo">
+        <h1>Welcome to My Portfolio</h1>
+
         <h1>ARBUNUS MUTINDA</h1>
         <p>Web Developer | Tech Enthusiast</p>
     </header>
@@ -37,10 +40,11 @@
                 user-friendly, and fully responsive across all devices.</p>
 
             <p>With a strong eye for design and a solid understanding of front-end development, I bridge the gap between
-                beautiful design and functional code. I enjoy using tools like  <strong>Adobe
+                beautiful design and functional code. I enjoy using tools like <strong>Adobe
                     XD</strong> for UI/UX design, and I bring those designs to life using <strong>HTML</strong>,
                 <strong>CSS</strong>, and <strong>JavaScript</strong>. I'm also comfortable working with <strong>version
-                    control tools like using <strong>VS Code</strong> as my primary editor.</p>
+                    control tools like using <strong>VS Code</strong> as my primary editor.
+            </p>
 
             <p>Over time, I’ve built projects ranging from static websites to interactive web applications. I love
                 solving real-world problems through code, experimenting with new technologies, and always pushing myself
@@ -105,7 +109,7 @@
                 <p><strong>Year:</strong> 2020 – 2023</p>
             </div>
 
-        
+
 
             <!-- Link to CV -->
             <a href="cv.pdf" download class="button">📄 Download My CV</a>
@@ -149,9 +153,9 @@
             <h2>Projects</h2>
 
             <div class="project">
-                <h3>Project 1: Taskify</h3>
-                <p>A simple and minimal to-do app using HTML, CSS, and JavaScript.</p>
-                <a href="#" target="_blank">🔗 View Project</a>
+                <h3>Project 1: my Portfolio</h3>
+                <p>i designed my portfolio using HTML, CSS, and JavaScript.</p>
+                <a href="https://github.com/jackal332/My-portfolio.git" target="_blank">🔗 View Project</a>
             </div>
 
             <div class="project">
@@ -161,42 +165,57 @@
             </div>
         </section>
 
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p>Want to work together or have a question? Reach out using the form below or connect with me directly:</p>
-            <div class="contact-container">
+       <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <div class="contact-content">
                 <div class="contact-info">
-                    <h3>Contact Information</h3>
-                    <p><i class="fas fa-envelope"></i>mutindaalbunus5@gmail.com</p>
-                    <p><i class="fas fa-phone"></i> 0707186426</p>
-                    <p><i class="fas fa-map-marker-alt"></i>Karatina-Nyeri</p>
+                    <h3>Let's Talk About Your Project</h3>
+                    <p>Have a project in mind or want to discuss potential collaboration? Feel free to reach out through any of the channels below.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <span>mutindaalbunus5@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>  <div> <h4>Phone</h4> <span>+254707186426</span></div>
+                        </div>
+                        <div class="contact-item">  <i class="fas fa-map-marker-alt"></i> <div>  <h4>Location</h4>
+                                <span>Coutry KENYA <br> County MAKUENI</span>
+                            </div>
+                        </div>
+                    </div>
                     
                     <div class="social-links">
-                        <a href="https://www.linkedin.com/in/arbunus-mutinda-a35a72326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-icon"><i class="fas fa-linkedin"></i></a>
-                        <a href="https://github.com/jackal332" class="social-icon"><i class="fas fa-github"></i></a>
-                        <a href="https://wa.me/254707186426" class="social-icon"><i class="fas fa-whatsapp"></i></a>
+                        <a href="https://www.linkedin.com/in/arbunus-mutinda-a35a72326"><i class="fab fa-linkedin-in"></i></a>
+                       <br>
+                        <a href="https://github.com/jackal332"><i class="fab fa-github"></i></a>
+                        <br>
+                        <a href="https://wa.me/254707186426"><i class="fab fa-whatsapp"></i></a>
+                        <br>
+                        <a href="live:.cid.da5f7aacf66c2f3c"><i class="fab fa-skype"></i></a>
+                    
                     </div>
-                    </div>
-            <ul class="social-links">
-                <p>
-                    📧 <strong>Email me directly:</strong>
-                    <a href="mailto:mutindaalbunus5@gmail.com" class="button">Send Email</a>
-                  </p>
-               
-            </ul>
+                </div>
 
-            <form action="https://formspree.io/f/mgvarjqv" method="POST">
-                <label>Name:</label>
-                <input type="text" name="name" required>
+                <form action="https://formspree.io/f/mgvarjqv" method="POST">
+                    <label>Name:</label>
+                    <input type="text" name="name" required>
 
-                <label>Email:</label>
-                <input type="email" name="email" required>
+                    <label>Email:</label>
+                    <input type="email" name="email" required>
 
-                <label>Message:</label>
-                <textarea name="message" rows="5" required></textarea>
+                    <label>Message:</label>
+                    <textarea name="message" rows="5" required></textarea>
 
-                <button type="submit">Send</button>
-            </form>
+                    <button type="submit">Send</button>
+                </form>
+                </div>
         </section>
 
 
